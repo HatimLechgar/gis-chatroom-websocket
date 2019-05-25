@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>gs-messaging-stomp-websocket</artifactId>
-	<version>0.1.0</version>
+	<artifactId>gis-chatroom-websocket</artifactId>
+	<version>0.0.1</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
