@@ -21,7 +21,7 @@ public class GreetingMsgController {
 
 	@MessageMapping("/hello")
 	@SendTo("/topic_toto/greetings")
-	public Greeting hhjkhjkhjk(HelloMessage message,Principal p) throws Exception {
+	public Greeting greet(HelloMessage message,Principal p) throws Exception {
 		Thread.sleep(1000); // simulated delay
 		Greeting greeting = new Greeting(p.getName() , HtmlUtils.htmlEscape(message.getName()) + "!");
 		greetingRepo.save(greeting);
